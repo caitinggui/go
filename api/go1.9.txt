@@ -108,6 +108,7 @@ pkg runtime/pprof, func Labels(...string) LabelSet
 pkg runtime/pprof, func SetGoroutineLabels(context.Context)
 pkg runtime/pprof, func WithLabels(context.Context, LabelSet) context.Context
 pkg runtime/pprof, type LabelSet struct
+pkg runtime, func Goid() int64
 pkg sync, method (*Map) Delete(interface{})
 pkg sync, method (*Map) Load(interface{}) (interface{}, bool)
 pkg sync, method (*Map) LoadOrStore(interface{}, interface{}) (interface{}, bool)
