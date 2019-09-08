@@ -55,6 +55,7 @@ pkg runtime/debug, type Module struct, Path string
 pkg runtime/debug, type Module struct, Replace *Module
 pkg runtime/debug, type Module struct, Sum string
 pkg runtime/debug, type Module struct, Version string
+pkg runtime, func Goid() int64
 pkg strings, func ReplaceAll(string, string, string) string
 pkg strings, method (*Builder) Cap() int
 pkg syscall (freebsd-386), const S_IRWXG = 56

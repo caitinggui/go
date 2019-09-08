@@ -878,3 +878,9 @@ var (
 	islibrary bool // -buildmode=c-shared
 	isarchive bool // -buildmode=c-archive
 )
+
+// Get goroutine id
+func Goid() int64 {
+	_g_ := getg()
+	return _g_.goid
+}
