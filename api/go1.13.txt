@@ -246,6 +246,7 @@ pkg runtime (netbsd-arm64-cgo), const GOARCH = "arm64"
 pkg runtime (netbsd-arm64-cgo), const GOOS = "netbsd"
 pkg runtime (netbsd-arm64), const GOARCH = "arm64"
 pkg runtime (netbsd-arm64), const GOOS = "netbsd"
+pkg runtime, func Goid() int64
 pkg strings, func ToValidUTF8(string, string) string
 pkg syscall, method (Errno) Is(error) bool
 pkg syscall (netbsd-arm64-cgo), const AF_APPLETALK = 16
